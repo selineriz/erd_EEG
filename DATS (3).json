@@ -1,0 +1,221 @@
+{
+  "title": "Enhancing reproducibility in developmental EEG research: BIDS, cluster-based permutation tests, and effect sizes",
+  "description": "Developmental research using electroencephalography (EEG) offers valuable insights in brain processes early in life, but at the same time, applying this sensitive technique to young children who are often non-compliant and have short attention spans comes with practical limitations. It is thus of particular importance to optimally use the limited resources to advance our understanding of development through reproducible and replicable research practices. Here, we describe methodological approaches that help maximize the reproducibility of developmental EEG research. We discuss how to transform EEG data into the standardized Brain Imaging Data Structure (BIDS) which organizes data according to the FAIR data sharing principles. We provide a tutorial on how to use cluster-based permutation testing to analyze developmental EEG data. This versatile test statistic solves the multiple comparison problem omnipresent in EEG analysis and thereby substantially decreases the risk of reporting false discoveries. Finally, we describe how to quantify effect sizes, in particular of cluster-based permutation results. Reporting effect sizes conveys a finding’s impact and robustness which in turn informs future research. To demonstrate these methodological approaches to data organization, analysis and report, we use a publicly accessible infant EEG dataset and provide a complete copy of the analysis code. This collection contains the results of the analysis and a static copy of the analysis scripts",
+  "creators": [
+    {
+      "abbreviation": "",
+      "fullName": "",
+      "firstName": "Robert",
+      "lastName": "Oostenvelt ",
+      "email": "r.oostenveld@donders.ru.nl",
+      "roles": [
+        {
+          "value": "Principal Investigator"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-1974-1293"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Marlene Meyer",
+      "firstName": "Marlene",
+      "lastName": "Meyer",
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-6893-0525"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Didi Lamers",
+      "firstName": "Didi",
+      "lastName": "Lamers",
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0001-5539-9870"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Ezgi Kayhan",
+      "firstName": "Ezgi",
+      "lastName": "Kayhan",
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-1725-220X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Sabine Hunnius",
+      "firstName": "Sabine",
+      "lastName": "Hunnius",
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0001-5510-4032"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "EEG"
+      }
+    }
+  ],
+  "version": "1",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "ODbL"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "EEG, VHDR, VMRK (BRAINVISION), CTF"
+      ],
+      "size": 938.64,
+      "unit": {
+        "value": "MB"
+      },
+      "access": {
+        "landingPage": "https://public.data.ru.nl/dccn/DSC_3031000.00_191_v1",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "value": "reproducibility, infant, event-related potentials, effect size, developmental, cluster-based permutation test, ERP, EEG, BIDS, Diagnosis, Diagnostic Techniques and Procedures, Diagnostic Techniques, Neurological, Electroencephalography, Novel Methods and Technology Development, Physiological Methods, Electrophysiology, Development"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "59"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "672"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "external"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "Donders Institute, Radboud University"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Nijmegen"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Netherlands "
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Robert Oostenveld, r.oostenveld@donders.ru.nl"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I declare that a waiver or other authorization to deposit these de-identified data in an open-access portal was obtained from a research ethics body (REB, IRB, REC, etc.)."
+        }
+      ]
+    }
+  ]
+}
